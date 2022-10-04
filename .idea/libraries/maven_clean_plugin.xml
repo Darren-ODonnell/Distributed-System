@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="maven.clean.plugin" type="repository">
+    <properties maven-id="maven:maven-clean-plugin:1.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/maven/maven-clean-plugin/1.2/maven-clean-plugin-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

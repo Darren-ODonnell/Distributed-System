@@ -1,0 +1,16 @@
+
+public class Main {
+
+	
+	public Main() {
+		Player player = new Player();
+		player.setName("John");
+		
+		PlayerDAO playerDao = new PlayerDAO();
+		playerDao.persist(player);
+	}
+	
+	public static void main(String[] args) {
+		Main();
+	}
+}

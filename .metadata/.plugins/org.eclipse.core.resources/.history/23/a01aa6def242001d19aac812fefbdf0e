@@ -1,0 +1,17 @@
+
+public class PlayerDAO {
+
+	private static EntityManagerFactory emf =
+			Persistence.createEntityManagerFactory("PlayersPU");
+	
+	public PlayerDAO() {
+	}
+	
+	public void persistPlayer(Player player) {
+		EntityManager em = emf.getEntityManager();
+		em.getTransaction().begin();
+		em.persist(player);
+		em.getTransaction().commit();
+		em.close();
+	}
+}

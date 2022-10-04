@@ -1,0 +1,22 @@
+import javax.annotation.processing.Generated;
+
+@Entity
+public class Player {
+	
+	@id
+	@GeneratedValue(strategy = Generated.AUTO)
+	private int id;
+	private String name;
+	
+	public void setName(String name) {
+		this.name = name;
+
+	@Override
+	public String toString() {
+		return "Player [name=" + name + "]";
+	}
+	public String getName() {
+		return this.name;
+	}
+
+}

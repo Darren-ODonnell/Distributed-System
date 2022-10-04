@@ -1,0 +1,23 @@
+
+public class Player {
+	
+	private String name;
+	private Int number;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Int getNumber() {
+		return number;
+	}
+	public void setNumber(Int number) {
+		this.number = number;
+	}
+	@Override
+	public String toString() {
+		return "Player [name=" + name + "]";
+	}
+
+}
